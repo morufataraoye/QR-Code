@@ -36,9 +36,8 @@ h1{
 }
 p{
     font-size: 0.9em;
-    color: var(--text-light)
+    color: var(--text-light);
 }
-h1,
-p{
-    margin: 0.625rem;
+.words{
+    margin: 1rem;
 }
