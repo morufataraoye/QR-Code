@@ -6,6 +6,7 @@
     --text-dark: #0f0f0f;
     --text-light:hsl(0, 0%, 59%);
     --padding: 1rem;
+    --padding-inline: 1rem;
 }
 body{
     margin: 0;
@@ -17,6 +18,10 @@ body{
     justify-content: center;
     align-items: center;
     background-color:var(--background-color);
+    padding-inline: var(--padding-inline);
+}
+figure{
+    margin: 0;
 }
 .card{
     background-color: var(--card-color);
@@ -32,10 +37,10 @@ img{
 h1{
     font-size: 1.3rem;
     font-weight: 800;
-    color: var(--text-dark)
+    color: var(--text-dark);
 }
 p{
-    font-size: 0.9em;
+    font-size: 0.9rem;
     color: var(--text-light);
 }
 .words{
