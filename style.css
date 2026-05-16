@@ -44,5 +44,5 @@ p{
     color: var(--text-light);
 }
 .words{
-    margin: 1rem;
+    margin: clamp(0.5rem, 2vw, 1rem);
 }
